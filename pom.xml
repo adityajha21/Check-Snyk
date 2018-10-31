@@ -3,7 +3,13 @@
   <groupId>XmlDecodeUtil</groupId>
   <artifactId>XmlDecodeUtil</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  	<dependencies>
+  <dependency>
+    <groupId>io.snyk</groupId>
+    <artifactId>snyk-maven-plugin</artifactId>
+    <version>1.0</version>
+</dependency>
+      	</dependencies>
  <build>
     <plugins>
         <plugin>
